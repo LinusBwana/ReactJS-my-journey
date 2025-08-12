@@ -1,0 +1,59 @@
+body{
+    background-color: hsla(115, 18%, 58%, 0.857);
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stopwatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.display{
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 1px 1px 1px rgb(252, 164, 0);
+    margin-bottom: 20px;
+}
+
+.controls button{
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    margin: 5px;
+    padding: 10px 20px;
+    min-width: 125px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.start{
+    background-color: hsl(120, 100%, 30%);
+}
+.start:hover{
+    background-color: hsl(120, 100%, 20%);
+}
+
+.reset{
+    background-color: hsl(206, 100%, 62%);
+}
+.reset:hover{
+    background-color: hsl(206, 100%, 52%);
+}
+
+.stop{
+    background-color: hsl(0, 90%, 51%);
+}
+.stop:hover{
+    background-color: hsl(0, 90%, 41%);
+}
